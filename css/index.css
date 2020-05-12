@@ -1,0 +1,49 @@
+.content_body{
+    
+}
+body{
+    background: #E5E5E5 !important;
+    font-family: Circular Std;
+}
+header{
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    width: auto;
+}
+.category{
+    background: #D7DEE8 !important;
+}
+.category_wrapper{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #5B6982;
+    width: 85%;
+}
+.active_category{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(164, 164, 164, 0.4);
+    color: #000;
+}
+button span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* text-align: center; */
+    color: #5B6982;
+}
+button{
+    background: #D7DEE8 !important;
+    /* border-radius: 2px; */
+}
+.trending_card_header{
+    background: linear-gradient(0deg, #D7DEE8, #D7DEE8), linear-gradient(98.03deg, #000000 0.22%, #741995 100%);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5B6982;
+}
+.contact_us_card{}

@@ -1,0 +1,12 @@
+.profile_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.header_action_Section{
+    width: 23%;
+}
+.nav_tabs{
+    width: 30%;
+}
