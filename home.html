@@ -1,16 +1,19 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css//index.css">
     <link rel="stylesheet" href="./css//home.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Home</title>
 </head>
+
 <body>
-    <header class="d-flex justify-content-between align-items-center px-5 py-2">
+    <header class="d-flex justify-content-between align-items-center px-5 py-2  position-sticky sticky-top">
         <div>
-            <img src="./images/logo.svg" alt="logo"/>
+            <img src="./images/logo.svg" alt="logo" />
         </div>
         <div class="d-flex justify-content-between nav_tabs">
             <span>Home</span>
@@ -19,19 +22,19 @@
             <span>About</span>
         </div>
         <div class="d-flex align-items-center justify-content-between header_action_Section">
-            <button class="d-flex align-items-center form-control w-auto">
+            <button class="d-flex align-items-center form-control w-auto post_article_btn">
                 <span class="mr-2">Post an article</span>
-                <img src="./images/editIcon.svg" alt="edit"/>
+                <img src="./images/editIcon.svg" alt="edit" />
             </button>
-            <img src="./images/Search.svg" alt="search"/>
-            <img src="./images/notificationIcon.svg" alt="notify"/>
-            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon"/>
+            <img src="./images/Search.svg" alt="search" />
+            <img src="./images/notificationIcon.svg" alt="notify" />
+            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
         </div>
     </header>
-    <div class="content_body mt-2  px-5">
+    <div class="content_body mt-3 px-5">
         <div class="row">
-            <aside class="col-md-3">
-                <div class="d-flex flex-column category_wrapper">
+            <aside class="col-md-3 position-sticky sticky-top">
+                <div class="d-flex flex-column category_wrapper  position-sticky sticky-top" style="top: 12%;">
                     <div class="w-100 text-center form-control category border-0"><b>Categories</b></div>
                     <div class="px-4 py-2">All</div>
                     <div class="px-4 py-2">Baseball</div>
@@ -47,26 +50,36 @@
                     <div class="px-4 py-2">Zootopia</div>
                 </div>
             </aside>
-            <div class="col-md-6">hhhh</div>
+            <div class="col-md-6">
+                <div class="main_content">
+                    Home
+                </div>
+            </div>
             <aside class="col-md-3">
-                <div class="card trending_card" style="width: 18rem;">
-                    <div class="card-header trending_card_header">
-                      <!-- <b>Trending Topics</b> -->
-                      Trending Topics
+                <div class=" position-sticky sticky-top" style="top: 12%;">
+                    <div class="card trending_card">
+                        <div class="card-header trending_card_header">
+                            Trending Topics
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Another interesting football topic fans would love to see</li>
+                            <li class="list-group-item">European Premiere League suspended</li>
+                            <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
+                            <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
+                            <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
+                        </ul>
                     </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Another interesting football topic fans would love to see</li>
-                      <li class="list-group-item">European Premiere League suspended</li>
-                      <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
-                      <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
-                      <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
-                    </ul>
-                  </div>
-                  <div class="card contact_us_card">
 
-                  </div>
+                    <div class="card contact_us_card d-flex justify-content-center align-items-center mt-3">
+                        <div>
+                            <p>Advertise with us</p>
+                            <button class="contact_btn form-control">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
             </aside>
         </div>
     </div>
 </body>
+
 </html>

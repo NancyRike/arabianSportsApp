@@ -34,7 +34,7 @@ button span{
     /* text-align: center; */
     color: #5B6982;
 }
-button{
+.post_article_btn{
     background: #D7DEE8 !important;
     /* border-radius: 2px; */
 }
@@ -46,4 +46,23 @@ button{
     line-height: 21px;
     color: #5B6982;
 }
-.contact_us_card{}
+.contact_us_card{
+    height: 30vh;
+    text-align: center;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.contact_btn{
+    background: #FFFFFF;
+    border: 1px solid #741995 !important;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #741995 !important;
+}
