@@ -1,0 +1,82 @@
+.postmodal_wrapper{
+    background: #000;
+    height: 100vh;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(4px);
+}
+.comment_btn{
+    background: #979797;
+    border-radius: 4px;
+    width: 20%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ux_writeup{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.96px;
+    line-height: 14px;
+    color: #5B6982;
+}
+.review_name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 21px;
+    color: #741995;
+}
+.review_p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #3F4549;
+}
+.draw_line{
+    border-right: 2px solid rgb(218, 215, 215);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5B6982;
+}
+.active_reply_div, .report_div, .reply_div{
+    color: #cccccc;
+}
+.active_reply_div span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #741995;
+}
+.review_options{
+    margin-bottom: 1rem;
+}
+.report_div, .reply_div span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A7B4BA;
+}
+.reply_btn{
+    background: #979797;
+    border-radius: 4px;
+    float: right;
+    border: none;
+    width: 15%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.03226px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.reply_comment textarea{
+    height: 10vh;
+}

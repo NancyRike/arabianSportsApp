@@ -2,8 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css//index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/livescore.css">
     <title>Live Score</title>
 </head>
 <body>
@@ -12,10 +13,10 @@
             <img src="./images/logo.svg" alt="logo" />
         </div>
         <div class="d-flex justify-content-between nav_tabs">
-            <span>Home</span>
-            <span>Fan Connect</span>
-            <span>Livescore</span>
-            <span>About</span>
+            <span class="active_route py-2 px-3">Home</span>
+            <span class="py-2 px-3">Fan Connect</span>
+            <span class="py-2 px-3">Livescore</span>
+            <span class="py-2 px-3">About</span>
         </div>
         <div class="d-flex align-items-center justify-content-between header_action_Section">
             <button class="d-flex align-items-center form-control w-auto post_article_btn">
@@ -23,15 +24,18 @@
                 <img src="./images/editIcon.svg" alt="edit" />
             </button>
             <img src="./images/Search.svg" alt="search" />
-            <img src="./images/notificationIcon.svg" alt="notify" />
+            <div>
+                <img src="./images/notificationIcon.svg" alt="notify" />
+                <div class="red_dot_notify"></div>
+            </div>
             <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
         </div>
     </header>
     <div class="content_body mt-3 px-5">
         <div class="row">
-            <aside class="col-md-3 position-sticky sticky-top">
+            <aside class="col-md-2 position-sticky sticky-top">
                 <div class="d-flex flex-column category_wrapper  position-sticky sticky-top" style="top: 12%;">
-                    <div class="w-100 text-center form-control category border-0"><b>Categories</b></div>
+                    <div class="form-control category border-0"><b>Categories</b></div>
                     <div class="px-4 py-2">All</div>
                     <div class="px-4 py-2">Baseball</div>
                     <div class="px-4 py-2">Basketball</div>
@@ -46,9 +50,218 @@
                     <div class="px-4 py-2">Zootopia</div>
                 </div>
             </aside>
-            <div class="col-md-6">
-                <div class="main_content">
-                    Live score
+            <div class="col-md-7">
+                <div class="date_tabs d-flex align-items-center text-center">
+                    <span class="date_tab border-right-0">APRIL 27</span>
+                    <span class="date_tab">APRIL 27</span>
+                    <span class="date_tab">APRIL 27</span>
+                    <span class="active_date">TODAY</span>
+                    <span class="date_tab">APRIL 27</span>
+                    <span class="date_tab">APRIL 27</span>
+                    <span class="date_tab">APRIL 27</span>
+                </div>
+                <div class="card p-3 livescore_card">
+                    <div>
+                        <div class="d-flex align-items-center justify-content-between league p-2">
+                            <div class="d-flex align-items-center">
+                                <img src="./images/eplIcon.svg" class="league_icon mr-2"/>
+                                <span class="league_name">PREMIER LEAGUE (ENGLAND)</span>
+                            </div>
+                            <div class="date">
+                                <span>APRIL 30</span>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="fulltime">
+                                FT
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="fulltime">
+                                FT
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="fulltime">
+                                FT
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Manchester united fC</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="fulltime">
+                                FT
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex align-items-center justify-content-between league p-2">
+                            <div class="d-flex align-items-center">
+                                <img src="./images/eplIcon.svg" class="league_icon mr-2"/>
+                                <span class="league_name">PREMIER LEAGUE (ENGLAND)</span>
+                            </div>
+                            <div class="date">
+                                <span>APRIL 30</span>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="fulltime">
+                                FT
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="live_match">
+                                39:43
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="fulltime">
+                                FT
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Manchester united fC</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="live_match">
+                                39:43
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex align-items-center justify-content-between league p-2">
+                            <div class="d-flex align-items-center">
+                                <img src="./images/eplIcon.svg" class="league_icon mr-2"/>
+                                <span class="league_name">PREMIER LEAGUE (ENGLAND)</span>
+                            </div>
+                            <div class="date">
+                                <span>APRIL 30</span>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="fulltime">
+                                FT
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="fulltime">
+                                FT
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="live_match">
+                                39:43
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Manchester united fC</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                        <div class="fixture d-flex justify-content-between p-2">
+                            <div class="live_match">
+                                39:43
+                            </div>
+                            <div class="fixture_team d-flex align-items-center">
+                                <div class="home_team">Sunderland</div>
+                                <div class="match_score mx-4"> 0 - 2</div>
+                                <div class="away_team">Chealse Fc</div>
+                            </div>
+                            <div class="fixture_info d-flex align-items-center">
+                                <img src="./images/televsionIcon.svg" alt="tele"/>
+                                <button class="py-1 px-2 ml-2">Info</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <aside class="col-md-3">
@@ -67,9 +280,9 @@
                     </div>
 
                     <div class="card contact_us_card d-flex justify-content-center align-items-center mt-3">
-                        <div>
+                        <div class="text-center">
                             <p>Advertise with us</p>
-                            <button class="contact_btn form-control">Contact Us</button>
+                            <button class="contact_btn form-control mx-auto">Contact Us</button>
                         </div>
                     </div>
                 </div>

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css//index.css">
     <link rel="stylesheet" href="./css//home.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Home</title>
 </head>
 
@@ -16,10 +16,10 @@
             <img src="./images/logo.svg" alt="logo" />
         </div>
         <div class="d-flex justify-content-between nav_tabs">
-            <span>Home</span>
-            <span>Fan Connect</span>
-            <span>Livescore</span>
-            <span>About</span>
+            <span class="active_route py-2 px-3">Home</span>
+            <span class="py-2 px-3">Fan Connect</span>
+            <span class="py-2 px-3">Livescore</span>
+            <span class="py-2 px-3">About</span>
         </div>
         <div class="d-flex align-items-center justify-content-between header_action_Section">
             <button class="d-flex align-items-center form-control w-auto post_article_btn">
@@ -27,15 +27,18 @@
                 <img src="./images/editIcon.svg" alt="edit" />
             </button>
             <img src="./images/Search.svg" alt="search" />
-            <img src="./images/notificationIcon.svg" alt="notify" />
+            <div>
+                <img src="./images/notificationIcon.svg" alt="notify" />
+                <div class="red_dot_notify"></div>
+            </div>
             <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
         </div>
     </header>
     <div class="content_body mt-3 px-5">
         <div class="row">
-            <aside class="col-md-3 position-sticky sticky-top">
+            <aside class="col-md-2 position-sticky sticky-top">
                 <div class="d-flex flex-column category_wrapper  position-sticky sticky-top" style="top: 12%;">
-                    <div class="w-100 text-center form-control category border-0"><b>Categories</b></div>
+                    <div class="form-control category border-0"><b>Categories</b></div>
                     <div class="px-4 py-2">All</div>
                     <div class="px-4 py-2">Baseball</div>
                     <div class="px-4 py-2">Basketball</div>
@@ -50,10 +53,136 @@
                     <div class="px-4 py-2">Zootopia</div>
                 </div>
             </aside>
-            <div class="col-md-6">
-                <div class="main_content">
-                    Home
+            <div class="col-md-7">
+                <div class="card p-3 mb-5">
+                    <textarea class="mb-3 p-2" placeholder="Hey Emeka, what’s happening..."></textarea>
+                    <div class="w-100 justify-content-between d-flex">
+                        <button class="add_tag_btn"><b>Add a tag +</b></button>
+                        <button class="form-control border-0 post_btn">Post</button>
+                    </div>
                 </div>
+                <div class="card p-3 mb-3">
+                    <div class="w-100 d-flex justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <img src="./images//profilePix.jpg" alt="pix" class="profile_icon mr-2" />
+                                <span class="post_name mr-3">ChiefKeeper181818</span>
+                                <span class="posting_day">3 days ago</span>
+                            </div>
+                            <div class="d-flex align-items-center my-2">
+                                <div class="league d-flex">
+                                    <div class="mr-2 py-1 px-2">Champions league</div>
+                                    <div class="px-2 py-1">EPL</div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images//optionIcon.svg"  alt="options" class="align-self-start"/>
+                    </div>
+                    <div class="w-100 post_">
+                        Check out this cool trick from Zidabe!
+                    </div>
+                    <div class="w-100 my-2">
+                        <video width="100%" controls>
+                            <source src="./video/arthur.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                          </video>
+                    </div>
+                    <div class="d-flex justify-content-between review_section">
+                        <div class="d-flex">
+                            <img src="./images/heartIcon.svg" alt="like"/>
+                            <span class="ml-2">320 likes</span>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/reviewIcon.svg" alt="comments"/>
+                            <span class="ml-2">84 comments</span>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/shareIcon.svg" alt="share"/>
+                            <span class="ml-2">10 shares</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-3 mb-3">
+                    <div class="w-100 d-flex justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <img src="./images//profilePix.jpg" alt="pix" class="profile_icon mr-2" />
+                                <span class="post_name mr-3">ChiefKeeper181818</span>
+                                <span class="posting_day">3 days ago</span>
+                            </div>
+                            <div class="d-flex align-items-center my-2">
+                                <div class="league d-flex">
+                                    <div class="mr-2 py-1 px-2">Champions league</div>
+                                    <div class="py-1 px-2">EPL</div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images//optionIcon.svg"  alt="options" class="align-self-start"/>
+                    </div>
+                    <div class="w-100 post_ mb-3">
+                        Check out this cool trick from Zidabe!
+                    </div>
+                    <div class="d-flex justify-content-between mb-3 review_section">
+                        <div class="d-flex">
+                            <img src="./images/heartIcon.svg" alt="like"/>
+                            <span class="ml-2">320 likes</span>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/reviewIcon.svg" alt="comments"/>
+                            <span class="ml-2">84 comments</span>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/shareIcon.svg" alt="share"/>
+                            <span class="ml-2">10 shares</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-3 mb-3">
+                    <div class="w-100 d-flex justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <img src="./images//profilePix.jpg" alt="pix" class="profile_icon mr-2" />
+                                <span class="post_name mr-3">ChiefKeeper181818</span>
+                                <span class="posting_day">3 days ago</span>
+                            </div>
+                            <div class="d-flex align-items-center my-2">
+                                <div class="league d-flex">
+                                    <div class="mr-2 py-1 px-2">Champions league</div>
+                                    <div class="px-2 py-1">EPL</div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images//optionIcon.svg"  alt="options" class="align-self-start"/>
+                    </div>
+                    <div class="w-100 post_">
+                        Check out this cool trick from Zidabe!
+                    </div>
+                    <div class="w-100 d-flex justify-content-between my-2">
+                        <video width="48%" controls>
+                            <source src="./video/arthur.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                          </video>
+                        <video width="48%" controls>
+                            <source src="./video/arthur.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                          </video>
+                    </div>
+                    <div class="d-flex justify-content-between review_section">
+                        <div class="d-flex">
+                            <img src="./images/heartIcon.svg" alt="like"/>
+                            <span class="ml-2">320 likes</span>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/reviewIcon.svg" alt="comments"/>
+                            <span class="ml-2">84 comments</span>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/shareIcon.svg" alt="share"/>
+                            <span class="ml-2">10 shares</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="form-control mt-5 mb-3 mx-auto load_more_btn" style="width: 8vw;">Load More</button>
             </div>
             <aside class="col-md-3">
                 <div class=" position-sticky sticky-top" style="top: 12%;">
@@ -61,7 +190,7 @@
                         <div class="card-header trending_card_header">
                             Trending Topics
                         </div>
-                        <ul class="list-group list-group-flush">
+                        <ul class="list-group list-group-flush trends">
                             <li class="list-group-item">Another interesting football topic fans would love to see</li>
                             <li class="list-group-item">European Premiere League suspended</li>
                             <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
@@ -71,9 +200,9 @@
                     </div>
 
                     <div class="card contact_us_card d-flex justify-content-center align-items-center mt-3">
-                        <div>
+                        <div class="text-center">
                             <p>Advertise with us</p>
-                            <button class="contact_btn form-control">Contact Us</button>
+                            <button class="contact_btn form-control mx-auto">Contact Us</button>
                         </div>
                     </div>
                 </div>

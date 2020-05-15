@@ -1,0 +1,19 @@
+.post_header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+}
+.post_p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #000000;
+}
+.post_image{
+    object-fit: cover;
+}

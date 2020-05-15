@@ -1,0 +1,373 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css//index.css">
+    <link rel="stylesheet" href="./css//home.css">
+    <link rel="stylesheet" href="./css/postModal.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <header class="d-flex justify-content-between align-items-center px-5 py-2  position-sticky sticky-top">
+        <div>
+            <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <div class="d-flex justify-content-between nav_tabs">
+            <span>Home</span>
+            <span>Fan Connect</span>
+            <span>Livescore</span>
+            <span>About</span>
+        </div>
+        <div class="d-flex align-items-center justify-content-between header_action_Section">
+            <button class="d-flex align-items-center form-control w-auto post_article_btn">
+                <span class="mr-2">Post an article</span>
+                <img src="./images/editIcon.svg" alt="edit" />
+            </button>
+            <img src="./images/Search.svg" alt="search" />
+            <img src="./images/notificationIcon.svg" alt="notify" />
+            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+        </div>
+    </header> -->
+    <div class="position-fixed postmodal_wrapper pt-3 px-5">
+        <div class="row">
+            <!-- <aside class="col-md-2 position-sticky sticky-top">
+                <div class="d-flex flex-column category_wrapper  position-sticky sticky-top" style="top: 12%;">
+                    well
+                </div>
+            </aside> -->
+            <div class="col-md-6 ml-auto">
+                <div class="card p-3 mb-5">
+                    <div class="w-100 d-flex justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <img src="./images//profilePix.jpg" alt="pix" class="profile_icon mr-2" />
+                                <span class="post_name mr-3">ChiefKeeper181818</span>
+                                <span class="posting_day">3 days ago</span>
+                            </div>
+                            <div class="d-flex align-items-center my-2">
+                                <div class="league d-flex">
+                                    <div class="mr-2 py-1 px-2">Champions league</div>
+                                    <div class="px-2 py-1">EPL</div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images//optionIcon.svg"  alt="options" class="align-self-start"/>
+                    </div>
+                    <div class="w-100 post_">
+                        Check out this cool trick from Zidabe!
+                    </div>
+                    <div class="w-100 my-2">
+                        <video width="100%" controls>
+                            <source src="./video/arthur.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                          </video>
+                    </div>
+                    <div class="d-flex justify-content-between review_section">
+                        <div class="d-flex">
+                            <img src="./images/heartIcon.svg" alt="like"/>
+                            <span class="ml-2">320 likes</span>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/reviewIcon.svg" alt="comments"/>
+                            <span class="ml-2">84 comments</span>
+                        </div>
+                        <div class="d-flex">
+                            <img src="./images/shareIcon.svg" alt="share"/>
+                            <span class="ml-2">10 shares</span>
+                        </div>
+                    </div>
+                    <div class="py-3 mb-5">
+                        <textarea class="mb-3 p-2 w-100" placeholder="What are your thoughts?"></textarea>
+                        <div class="w-100 justify-content-between d-flex">
+                            <div class="d-flex align-items-center">
+                                <img src="./images//profilePix.jpg" alt="pix" class="profile_icon mr-2" />
+                                <div class="ux_writeup">
+                                    Leave a comment as Emeka1234
+                                </div>
+                            </div>
+                            <!-- <button class="form-control"><b>Add a tag +</b></button> -->
+                            <button class="form-control border-0 comment_btn">Comment</button>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="mr-2">
+                            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                        </div>
+                        <div class="w-100">
+                            <div class="d-flex align-items-center">
+                                <span class="review_name mr-3">ChiefKeeper181818</span>
+                                <span class="posting_day">3 days ago</span>
+                            </div>
+                            <p class="review_p">
+                                I believe any, and all genuine efforts of giving in all its various facets, whether its 
+                                winter attire, and providing housing for the many homeless women and men of many communities,
+                                 to providing toys for deprived and unfortunate children of many various communities,
+                                giving in all its forms can only serve to perpetuate a continuing vitality and vibrant sustainable 
+                                community. I applaud and commend efforts of charity, and all efforts true giving…
+                            </p>
+                            <div class="review_options">
+                                <div class="like_post d-flex align-items-center">
+                                    <img src="./images/redHeartIcon.svg"/>
+                                    
+                                    <div class="draw_line px-2 mr-2">
+                                        9
+                                    </div>
+                                    <img src="./images/upArrow.svg" class="mr-2"/>
+                                    <div class="active_reply_div mr-2">
+                                        &bull; <span>Reply</span>
+                                    </div>
+                                    <div class="report_div">
+                                        &bull; <span>Report</span> &rsaquo;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-100 reply_comment mb-5">
+                                <textarea class="w-100 mb-3 p-2"></textarea>
+                                <button class="reply_btn form-control">Reply</button>
+                            </div>
+                            <div class="d-flex">
+                                <div class="mr-2">
+                                    <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                                </div>
+                                <div class="w-100">
+                                    <div class="d-flex align-items-center">
+                                        <span class="review_name mr-3">ChiefKeeper181818</span>
+                                        <span class="posting_day">3 days ago</span>
+                                    </div>
+                                    <p class="review_p">
+                                        I believe any, and all genuine efforts of giving in all its various facets, whether its 
+                                        winter attire, and providing housing for the many homeless women and men of many communities,
+                                         giving…
+                                    </p>
+                                    <div class="review_options">
+                                        <div class="like_post d-flex align-items-center">
+                                            <img src="./images/heartIcon.svg"/>
+                                            
+                                            <div class="draw_line px-2 mr-2">
+                                                
+                                            </div>
+                                            <img src="./images/downArrow.svg" class="mr-2"/>
+                                            <div class="reply_div mr-2">
+                                                &bull; <span>Reply</span>
+                                            </div>
+                                            <div class="report_div">
+                                                &bull; <span>Report</span> &rsaquo; 
+                                                <!-- <img src="./images/forwardArrow.svg"/> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="mr-2">
+                                            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                                        </div>
+                                        <div class="w-100">
+                                            <div class="d-flex align-items-center">
+                                                <span class="review_name mr-3">ChiefKeeper181818</span>
+                                                <span class="posting_day">3 days ago</span>
+                                            </div>
+                                            <p class="review_p">
+                                                I believe any, and all genuine efforts of giving in all its various facets
+                                            </p>
+                                            <div class="review_options">
+                                                <div class="like_post d-flex align-items-center">
+                                                    <img src="./images/heartIcon.svg"/>
+                                                    
+                                                    <div class="draw_line px-2 mr-2">
+                                                        
+                                                    </div>
+                                                    <img src="./images/downArrow.svg" class="mr-2"/>
+                                                    <div class="reply_div mr-2">
+                                                        &bull; <span>Reply</span>
+                                                    </div>
+                                                    <div class="report_div">
+                                                        &bull; <span>Report</span> &rsaquo; 
+                                                        <!-- <img src="./images/forwardArrow.svg"/> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="mr-2">
+                                    <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                                </div>
+                                <div class="w-100">
+                                    <div class="d-flex align-items-center">
+                                        <span class="review_name mr-3">ChiefKeeper181818</span>
+                                        <span class="posting_day">3 days ago</span>
+                                    </div>
+                                    <p class="review_p">
+                                        I believe any, and all genuine efforts of giving in all its various facets, whether its 
+                                        winter attire, and providing housing for the many homeless women and men of many communities,
+                                         giving…
+                                    </p>
+                                    <div class="review_options">
+                                        <div class="like_post d-flex align-items-center">
+                                            <img src="./images/heartIcon.svg"/>
+                                            
+                                            <div class="draw_line px-2 mr-2">
+                                                
+                                            </div>
+                                            <img src="./images/downArrow.svg" class="mr-2"/>
+                                            <div class="reply_div mr-2">
+                                                &bull; <span>Reply</span>
+                                            </div>
+                                            <div class="report_div">
+                                                &bull; <span>Report</span> &rsaquo; 
+                                                <!-- <img src="./images/forwardArrow.svg"/> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="mr-2">
+                            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                        </div>
+                        <div class="w-100">
+                            <div class="d-flex align-items-center">
+                                <span class="review_name mr-3">ChiefKeeper181818</span>
+                                <span class="posting_day">3 days ago</span>
+                            </div>
+                            <p class="review_p">
+                                I believe any, and all genuine efforts of giving in all its various facets, whether its 
+                                winter attire, and providing housing for the many homeless women and men of many communities,
+                                 to providing toys for deprived and unfortunate children of many various communities,
+                                giving in all its forms can only serve to perpetuate a continuing vitality and vibrant sustainable 
+                                community. I applaud and commend efforts of charity, and all efforts true giving…
+                            </p>
+                            <div class="review_options">
+                                <div class="like_post d-flex align-items-center">
+                                    <img src="./images/redHeartIcon.svg"/>
+                                    
+                                    <div class="draw_line px-2 mr-2">
+                                        9
+                                    </div>
+                                    <img src="./images/upArrow.svg" class="mr-2"/>
+                                    <div class="reply_div mr-2">
+                                        &bull; <span>Reply</span>
+                                    </div>
+                                    <div class="report_div">
+                                        &bull; <span>Report</span> &rsaquo;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="mr-2">
+                                    <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                                </div>
+                                <div class="w-100">
+                                    <div class="d-flex align-items-center">
+                                        <span class="review_name mr-3">ChiefKeeper181818</span>
+                                        <span class="posting_day">3 days ago</span>
+                                    </div>
+                                    <p class="review_p">
+                                        I believe any, and all genuine efforts of giving in all its various facets, whether its 
+                                        winter attire, and providing housing for the many homeless women and men of many communities,
+                                         giving…
+                                    </p>
+                                    <div class="review_options">
+                                        <div class="like_post d-flex align-items-center">
+                                            <img src="./images/heartIcon.svg"/>
+                                            
+                                            <div class="draw_line px-2 mr-2">
+                                                
+                                            </div>
+                                            <img src="./images/downArrow.svg" class="mr-2"/>
+                                            <div class="reply_div mr-2">
+                                                &bull; <span>Reply</span>
+                                            </div>
+                                            <div class="report_div">
+                                                &bull; <span>Report</span> &rsaquo; 
+                                                <!-- <img src="./images/forwardArrow.svg"/> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="mr-2">
+                                            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                                        </div>
+                                        <div class="w-100">
+                                            <div class="d-flex align-items-center">
+                                                <span class="review_name mr-3">ChiefKeeper181818</span>
+                                                <span class="posting_day">3 days ago</span>
+                                            </div>
+                                            <p class="review_p">
+                                                I believe any, and all genuine efforts of giving in all its various facets
+                                            </p>
+                                            <div class="review_options">
+                                                <div class="like_post d-flex align-items-center">
+                                                    <img src="./images/heartIcon.svg"/>
+                                                    
+                                                    <div class="draw_line px-2 mr-2">
+                                                        
+                                                    </div>
+                                                    <img src="./images/downArrow.svg" class="mr-2"/>
+                                                    <div class="reply_div mr-2">
+                                                        &bull; <span>Reply</span>
+                                                    </div>
+                                                    <div class="report_div">
+                                                        &bull; <span>Report</span> &rsaquo; 
+                                                        <!-- <img src="./images/forwardArrow.svg"/> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="mr-2">
+                                                    <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                                                </div>
+                                                <div class="w-100">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="review_name mr-3">ChiefKeeper181818</span>
+                                                        <span class="posting_day">3 days ago</span>
+                                                    </div>
+                                                    <p class="review_p">
+                                                        I believe any, and all genuine efforts of giving in all its various facets, whether its 
+                                                        winter attire, and providing housing for the many homeless women and men of many communities,
+                                                         giving…
+                                                    </p>
+                                                    <div class="review_options">
+                                                        <div class="like_post d-flex align-items-center">
+                                                            <img src="./images/heartIcon.svg"/>
+                                                            
+                                                            <div class="draw_line px-2 mr-2">
+                                                                
+                                                            </div>
+                                                            <img src="./images/downArrow.svg" class="mr-2"/>
+                                                            <div class="reply_div mr-2">
+                                                                &bull; <span>Reply</span>
+                                                            </div>
+                                                            <div class="report_div">
+                                                                &bull; <span>Report</span> &rsaquo; 
+                                                                <!-- <img src="./images/forwardArrow.svg"/> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="form-control mt-5 mb-3 mx-auto load_more_btn" style="width: 8vw;">Load More</button>
+            </div>
+            <aside class="col-md-3">
+                <div class="d-flex flex-column category_wrapper  position-sticky sticky-top" style="top: 0%; right: 0%;">
+                    <div class="ml-auto" style="width: 20%;">
+                        <img src="./images/closeModal.svg" />
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>

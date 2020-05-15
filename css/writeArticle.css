@@ -1,0 +1,59 @@
+.new_article_writeup{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.title{
+    border: 1px solid #EEF1F7;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #5B6982;
+}
+.writeup_toolbar{
+    background: #F5F5F5;
+    border-radius: 2px 2px 0px 0px;
+}
+.tooltips{
+    width: 8.2%;
+    text-align: center;
+}
+.write_article_textarea{
+    background: #FFFFFF;
+    border: 1px solid #EEF1F7;
+    box-sizing: border-box;
+    height: 53.5vh;
+}
+.post_article_btn{
+    background: #979797;
+    /* border-radius: 4px; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.cancel_article_btn{
+    background: #FFFFFF;
+    border: 1px solid #741995;
+    box-sizing: border-box;
+    /* border-radius: 4px; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #741995;
+}
+.drawleft_line{
+    border-left: 1px solid #C4C4C4;
+}
+.drawright_line{
+    border-right: 1px solid #C4C4C4;
+}

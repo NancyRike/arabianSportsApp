@@ -1,8 +1,23 @@
+@font-face {
+    font-family: Circular Std;
+    src: url("/fonts/Circular\ Std\ Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Circular Std;
+    src: url("/fonts/Circular\ Std\ Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Circular Std;
+    font-weight: bold;
+    src: url("/fonts/Circular\ Std\ Bold.otf") format("opentype");
+}
 .content_body{
     
 }
 body{
-    background: #E5E5E5 !important;
+    background: #E5E5E5 ;
     font-family: Circular Std;
 }
 header{
@@ -10,8 +25,50 @@ header{
     border: 1px solid #DADADA;
     width: auto;
 }
+.profile_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.header_action_Section{
+    width: 23%;
+}
+.nav_tabs{
+    width: 30%;
+}
+.nav_tabs span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.active_route{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #741995 !important;
+    border-bottom: 3px solid #741995 !important;
+}
 .category{
-    background: #D7DEE8 !important;
+    background: #D7DEE8 ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5B6982 ;
+    padding-left: 1.5rem;
+}
+.red_dot_notify{
+    border-radius: 50px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    background: red;
+    top: 35%;
+    right: 8%;
 }
 .category_wrapper{
     font-style: normal;
@@ -19,7 +76,7 @@ header{
     font-size: 13px;
     line-height: 21px;
     color: #5B6982;
-    width: 85%;
+    /* width: 85%; */
 }
 .active_category{
     background: #FFFFFF;
@@ -35,8 +92,18 @@ button span{
     color: #5B6982;
 }
 .post_article_btn{
-    background: #D7DEE8 !important;
+    background: #D7DEE8 ;
     /* border-radius: 2px; */
+}
+.active_post_article_btn{
+    background: #741995;
+}
+.active_post_article_btn span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
 .trending_card_header{
     background: linear-gradient(0deg, #D7DEE8, #D7DEE8), linear-gradient(98.03deg, #000000 0.22%, #741995 100%);
@@ -57,12 +124,35 @@ button span{
 }
 .contact_btn{
     background: #FFFFFF;
-    border: 1px solid #741995 !important;
+    border: 1px solid #741995 ;
     border-radius: 2px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
-    color: #741995 !important;
+    color: #741995 ;
+    height: auto;
+    width: auto;
+}
+.load_more_btn{
+    font-style: normal;
+    font-weight: 500 ;
+    font-size: 14px ;
+    line-height: 19px ;
+    color: #979797 ;
+}
+.trends{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+}
+.contact_us_card p{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
 }

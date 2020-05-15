@@ -1,0 +1,119 @@
+.date_tabs{
+    background: #EDEDED;
+    border-radius: 2px;
+    margin-bottom: -5px;
+}
+.date_tab{
+    width: 14%;
+    width: 14%;
+    margin: 1% 0;
+    border-left: 0.5px solid #BCBCBC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* text-align: center; */
+    color: #828282;
+}
+.active_date{
+    background: #FFFFFF;
+    border-radius: 2px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    padding: 1% 0;
+    width: 14%;
+    position: relative;
+    z-index: 10;
+    margin-right: -1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.date_tabs > :first-child{
+    border: 0 !important;
+}
+.league{
+    background: #F9F9F9;
+}
+.league_icon{
+    border-radius: 2px;
+}
+.fixture_team{
+    width: 70%;
+}
+.home_team{
+    width: 45%;
+    text-align: end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.away_team{
+    width: 45%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+
+}
+.match_score{
+    width: 10%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+.fulltime{
+    width: 10%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+.live_match{
+    width: 10%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #EA4444;
+}
+.fixture_info button{
+    background: #5EB700;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.league_name{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 10px;
+    color: #828282;
+}
+.date span{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 10px;
+    color: #BCBCBC;
+}
+.livescore_card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
