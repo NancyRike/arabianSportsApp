@@ -35,6 +35,9 @@
     width: 45%;
     height: 6.5vh;
 }
+.disabled_btn{
+    background: #e9ecef;
+}
 .google_auth_btn{
     background: #EA7644;
     font-style: normal;
