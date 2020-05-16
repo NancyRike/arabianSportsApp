@@ -2,11 +2,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css//index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Sign In</title>
+    <link rel="stylesheet" href="./css/authentication.css">
+    <title>Sign in</title>
 </head>
 <body>
-    
+    <div class="auth_modal d-flex justify-content-center align-items-center">
+        <div class="auth_body">
+            <div class="row h-100 ">
+                <div class="col-md-4 p-0">
+                   <div class="h-100 w-100">
+                    <img src="./images/Authimage.png" alt="auth" class="auth_image">
+                   </div>
+                </div>
+                <div class="col-md-8 auth_form_section">
+                    <div class="w-100 py-2">
+                        <div class="text-right">
+                            <img src="./images/closeIcon.svg" alt="close" class="ml-auto">
+                        </div>
+                        <div class="auth_toggle d-flex mx-auto mb-5">
+                            <button class="form-control border-0" disabled>Sign up</button>
+                            <button class="form-control border-0">Log in</button>
+                        </div>
+                        <div class="d-flex justify-content-between mb-4">
+                            <button class="form-control facebook_auth_btn">Log in with Facebook</button>
+                            <button class="form-control google_auth_btn">Log in with Google</button>
+                        </div>
+                        <div class="d-flex alternative_writeup mb-4 align-items-center justify-content-between">
+                            <div class="hr_wrapper">
+                                <hr>
+                            </div>
+                            <span class="text-center">OR</span>
+                            <div class="hr_wrapper">
+                                <hr>
+                            </div>
+                        </div>
+                        <form action="" class="w-100 auth_form">
+                            <div class="row mb-3">
+                                <div class="col-12">
+                                    <label>
+                                        Username
+                                    </label>
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-12">
+                                    <label>
+                                        Password
+                                    </label>
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <button class="form-control border-0 auth_action_btn mx-auto w-50 my-3">Sign up</button>
+                            <div class="text-center">Don't have an account?  <span style="color: #741995; text-decoration: underline;">Sign up</span></div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

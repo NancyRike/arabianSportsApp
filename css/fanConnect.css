@@ -16,4 +16,5 @@
 }
 .post_image{
     object-fit: cover;
+    height: 22vh;
 }
