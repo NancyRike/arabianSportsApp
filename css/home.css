@@ -34,6 +34,17 @@ textarea{
     font-size: 12px;
     line-height: 15px;
 }
+.theNav a{
+    color: #000000;
+}
+.theNav a:active{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #741995 !important;
+    border-bottom: 3px solid #741995 !important;
+}
 .post_name{
     font-style: normal;
     font-weight: bold;

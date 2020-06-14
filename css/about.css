@@ -1,22 +1,13 @@
-.post_header{
+.writeUp{
     font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 21px;
-    display: flex;
-    align-items: flex-end;
+    /* font-weight: normal; */
+    font-size: 16px;
+    line-height: 33px;
     color: #000000;
 }
-.post_p{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 21px;
-    color: #000000;
-}
-.post_image{
+.main_image{
     object-fit: cover;
-    height: 22vh;
+    height: 45vh;
 }
 .theNav a{
     color: #000000;
