@@ -1,0 +1,40 @@
+.theNav a{
+    color: #000000;
+}
+.theNav a:active{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #741995 !important;
+    border-bottom: 3px solid #741995 !important;
+}
+.contact_nav a{
+    color: #5B6982;
+    font-size: 13px;
+ }
+ 
+ .submit_btn{
+    background-color: #741995;
+    align-items: center;
+    border: none;
+    display: flex;
+    margin: auto;
+    color: white;
+ }
+ .contact_box p{
+    font-size: 15px;
+    line-height: 26px;
+ }
+.helpline_img{
+    background-color: #741995;
+    width: 20px;
+    height: 30px;
+    border-radius: 60%;
+}
+.callLine_img{
+    background-color: #741995;
+    width: 20px;
+    height: 30px;
+    border-radius: 60%;
+}

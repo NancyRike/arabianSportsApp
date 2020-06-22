@@ -12,10 +12,6 @@
 .theNav a{
     color: #000000;
 }
-.about_nav a{    
-    color: #5B6982;
-    font-size: 13px;
-}
 .theNav a:active{
     font-style: normal;
     font-weight: bold;
@@ -24,3 +20,10 @@
     color: #741995 !important;
     border-bottom: 3px solid #741995 !important;
 }
+.theNav a :hover{
+    border-bottom: none;
+}
+.copyright_nav a{
+    color: #5B6982;
+    font-size: 13px;
+ }
