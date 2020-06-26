@@ -1,0 +1,27 @@
+.submit_btn{
+    background-color: #741995;
+    align-items: center;
+    border: none;
+    display: flex;
+    margin: auto;
+    color: white;
+ }
+ .user_name{
+    font-size: 12px;
+    line-height: 15px;
+    color: #979797;
+    margin: auto;
+ }
+ .user_id{
+    font-size: 12px;
+    line-height: 15px;
+    color: #979797;
+    margin: auto;
+ }
+.userProfile_image{
+    width: 5em;
+
+}
+.userProfile_img{
+    width: 2em;
+}

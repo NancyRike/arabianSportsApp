@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css//index.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/fanConnect.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/copyright.css">
+    <link rel="stylesheet" href="./css/profile.css">
+
+    <title>Profile</title>
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center px-5 py-2  position-sticky sticky-top">
+        <div>
+            <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <div class="d-flex justify-content-between nav_tabs theNav">
+            <a href="home.html" class="active_rout py-2 px-3">Home</a>
+            <a href="fanConnect.html" class="py-2 px-3">Fan Connect</a>
+            <a href="liveScore.html" class="py-2 px-3">Livescore</a>
+            <a href="about.html" class="py-2 px-3">About</a>
+        </div>
+        <div class="d-flex align-items-center justify-content-between header_action_Section">
+            <button class="d-flex align-items-center form-control w-auto post_article_btn">
+                <a href="writeArticle.html"><span class="mr-2">Post an article</span></a>
+                <img src="./images/editIcon.svg" alt="edit" />
+            </button>
+            <img src="./images/Search.svg" alt="search" />
+            <div>
+                <img src="./images/notificationIcon.svg" alt="notify" />
+                <div class="red_dot_notify"></div>
+            </div>
+            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+        </div>
+    </header>
+    <div class="content_body mt-3 px-5">
+        <div class="row">
+            <aside class="col-md-2 position-sticky sticky-top">
+                <div class="card p-4">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="./images/user_img.png" class="userProfile_img" alt="">
+                        </div>
+                        <div class="col p-1">
+                            <p class="user_id">John Njoku</p>
+                            <p class="user_id">john@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column category_wrapper copyright_nav position-sticky sticky-top mt-3" style="top: 12%;">
+                    <div class="form-control category border-0"><b>Your Files</b></div>
+                    <div class="px-4 py-2"><a href="article.html">Article</a></div>
+                    <div class="px-4 py-2"><a href="savedPost.html">Saved Post</a></div>
+                </div>
+            </aside>
+            <div class="col-md-7">
+                <div class="card p-3 mb-3">
+                    <div class="row w-75 mx-auto py-5"> 
+                        <div class="col-md-12">
+                            <div class="row w-50">
+                                <div class="col">
+                                    <img src="./images/user_img.png" class="userProfile_image" alt="">
+                                </div>
+                                <div class="col pt-4 p-1 w-25">
+                                    <p class="user_name">John Njoku</p>
+                                    <p class="user_name">john@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-3 w-100'>
+                            <form>
+                                <div class="form-row my-3">
+                                  <div class="col">
+                                    <label for="nameofuser">Name</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                  <div class="col">
+                                      <label for="username">Username</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phonenumber">Email/Phonenumber</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-row my-3">
+                                    <div class="col">
+                                        <label for="password">Password</label>
+                                      <input type="password" class="form-control">
+                                    </div>
+                                    <div class="col">
+                                        <label for="rewritepassword">Re-type password</label>
+                                      <input type="password" class="form-control">
+                                    </div>
+                                </div>
+                                  <button type="submit" class="btn btn-primary px-5 submit_btn">Sign up</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div> 
+            <aside class="col-md-3">
+                <div class=" position-sticky sticky-top" style="top: 12%;">
+                    <div class="card trending_card">
+                        <div class="card-header trending_card_header">
+                            Trending Topics
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Another interesting football topic fans would love to see</li>
+                            <li class="list-group-item">European Premiere League suspended</li>
+                            <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
+                            <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
+                            <li class="list-group-item">Pep Guardiola buys Real Madrid</li>
+                        </ul>
+                    </div>
+
+                    <div class="card contact_us_card d-flex justify-content-center align-items-center mt-3">
+                        <div class="text-center">
+                            <p>Advertise with us</p>
+                            <button class="contact_btn form-control mx-auto">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
