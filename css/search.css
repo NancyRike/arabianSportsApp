@@ -1,0 +1,12 @@
+.search_button{
+    background-color: #741995;
+    color: #ffffff;
+}
+.search_bar{
+    border:1px solid #E0E0E0;
+}
+.search_params a{
+    color: #979797;
+    background-color: #ffffff;
+    border: 1px solid #E0E0E0;
+}
