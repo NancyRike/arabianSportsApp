@@ -33,7 +33,15 @@
                 <img src="./images/notificationIcon.svg" alt="notify" />
                 <div class="red_dot_notify"></div>
             </div>
-            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+            <div class="dropdown show">
+                <a class="dropdown-toggle toggle_link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                </a>              
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="profile.html">Profile</a>
+                  <a class="dropdown-item" href="#">Sign Out</a>
+                </div>
+            </div>        
         </div>
     </header>
     <div class="content_body mt-3 px-5">
@@ -53,7 +61,7 @@
                 <div class="d-flex flex-column category_wrapper copyright_nav position-sticky sticky-top mt-3" style="top: 12%;">
                     <div class="form-control category border-0"><b>Your Files</b></div>
                     <div class="px-4 py-2"><a href="article.html">Article</a></div>
-                    <div class="px-4 py-2"><a href="savedPost.html">Saved Post</a></div>
+                    <div class="px-4 py-2 active_category"><a href="savedPost.html">Saved Post</a></div>
                 </div>
             </aside>
             <div class="col-md-7">

@@ -30,7 +30,15 @@
                 <img src="./images/notificationIcon.svg" alt="notify" />
                 <div class="red_dot_notify"></div>
             </div>
-            <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+            <div class="dropdown show">
+                <a class="dropdown-toggle toggle_link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="./images//profilePix.jpg" alt="pix" class="profile_icon" />
+                </a>              
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="profile.html">Profile</a>
+                  <a class="dropdown-item" href="#">Sign Out</a>
+                </div>
+            </div>
         </div>
     </header>
     <div class="content_body mt-3 px-5">
@@ -38,10 +46,10 @@
             <aside class="col-md-2 position-sticky sticky-top">
                 <div class="d-flex flex-column category_wrapper about_nav position-sticky sticky-top" style="top: 12%;">
                     <div class="form-control category border-0"><b>About Us</b></div>
-                    <div class="px-4 py-2"><a href="about.html"> About Us</a></div>
+                    <div class="px-4 py-2 active_category"><a href="about.html"> About Us</a></div>
                     <div class="px-4 py-2"><a href="termsAndCondition.html">Terms & Conditions</a></div>
                     <div class="px-4 py-2"><a href="copyright.html">Copyright Policies</a></div>
-                    <div class="px-4 py-2 active_category"><a href="contact.html">Contact Details</a></div>
+                    <div class="px-4 py-2"><a href="contact.html">Contact Details</a></div>
                 </div>
             </aside>
             <div class="col-md-7">
